@@ -4,7 +4,7 @@
  */
 
 /** Nombre de la base de datos */
-define('DB_NAME', 'newsite');
+define('DB_NAME', 'newsites');
 
 /** Usuario de la base de datos */
 define('DB_USER', 'root');
