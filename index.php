@@ -21,7 +21,9 @@
     //Base::importarControl('p_control'); //Se importa la interfaz de control
     Base::importarControl('if_control'); //Se importa la interfaz de control
     
+    //Llamar el controlador principal
     new ctr_index();
+
     
     /*
     spl_autoload_register('framework_autoload');
