@@ -1,5 +1,6 @@
 <?php
     //Index Front Controller
+	//Pruebas y asu
 
     //Establece la zona horaria del sistema
     date_default_timezone_set('America/Mexico_City');
