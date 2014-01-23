@@ -1,0 +1,17 @@
+<project name="Hola Mundo" default="main" basedir=".">
+
+	<property name="sourceDir" value="src"/>
+	<property name="destDir" value="bin"/>
+	
+	<target name="limpiar">
+		<delete dir="${destDir}"/>
+		<mkdir dir="${destDir}"/>
+	</target>
+
+	<target name="main" depends="limpiar">
+		<javac srcdir="${sourceDir}" destdir="${destDir}"/>
+		<echo>Hola Mundo</echo>
+	</target>
+
+	
+</project>
